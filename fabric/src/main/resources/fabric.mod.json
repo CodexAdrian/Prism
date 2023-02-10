@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "prism",
   "version": "${version}",
-  "name": "ModName",
+  "name": "Prism",
   "description": "",
   "authors": [
     ""
@@ -20,7 +20,7 @@
   "entrypoints": {
     "main": [
       "earth.terrarium.modid.fabric.ModIdFabric",
-      "earth.terrarium.modid.ModId::postInit"
+      "earth.terrarium.modid.Prism::postInit"
     ],
     "client": [
       "earth.terrarium.modid.client.fabric.ModIdClientFabric"
@@ -38,6 +38,5 @@
     "minecraft": ">=1.19",
     "resourcefullib": ">=${resourcefullib_version}",
     "resourcefulconfig": ">=${resourcefulconfig_version}",
-    "botarium": ">=${botarium_version}"
   }
 }

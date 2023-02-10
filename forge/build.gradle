@@ -50,7 +50,6 @@ dependencies {
 
     modApi "com.teamresourceful.resourcefullib:resourcefullib-forge-$minecraft_version:$rootProject.resourcefullib_version"
     modApi "com.teamresourceful.resourcefulconfig:resourcefulconfig-forge-$minecraft_version:$rootProject.resourcefulconfig_version"
-    modApi "earth.terrarium:botarium-forge-$rootProject.minecraft_version:$rootProject.botarium_version"
 }
 
 processResources {

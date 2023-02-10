@@ -4,9 +4,9 @@ license = "Terrarium Licence"
 issueTrackerURL = "https://github.com/terrarium-earth/modid/issues"
 
 [[mods]]
-modId = "modid"
+modId = "prism"
 version = "${version}"
-displayName = "ModName"
+displayName = "Prism"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/modid"
 logoFile = "icon.png"
 authors = ""
@@ -38,12 +38,5 @@ side = "BOTH"
 modId = "resourcefulconfig"
 mandatory = true
 versionRange = "[${resourcefulconfig_version},)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.modid]]
-modId = "botarium"
-mandatory = true
-versionRange = "[${botarium_version},)"
 ordering = "NONE"
 side = "BOTH"
